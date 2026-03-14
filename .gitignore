@@ -1,0 +1,53 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Compiled extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+.eggs/
+*.egg-info/
+pip-wheel-metadata/
+
+# Test / coverage / type-check caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+streamlit_env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
